@@ -1,0 +1,65 @@
+:root {
+  --font-primary: black;
+  --font-secondary: #6b7280;
+  --important: red;
+  --bg-primary: #f6f6f7;
+  --bg-secondary: white;
+  --border: #d3dbe3;
+  --primary: #2969ff;
+  --secondary: #22c55e;
+
+  --font-sz-lg: 1.1rem;
+  --font-sz-md: 0.875rem;
+  --font-sz-sm: 0.75rem;
+  --font-we-md: 600;
+  --font-we-bold: 800;
+  --font-we-light: 500;
+
+  --nav-height: 4rem;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.25rem;
+  font-weight: var(--text-we-md);
+  font-size: var(--text-sz-md);
+
+  background-color: var(--bg-primary);
+  color: var(--font-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button-style {
+  border-radius: 6px;
+  background-color: var(--secondary);
+  color: var(--bg-secondary);
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: var(--font-sz-lg);
+  font-weight: var(--font-we-bold);
+  cursor: pointer;
+}
